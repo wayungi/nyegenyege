@@ -26,7 +26,7 @@
 }
 
 .container {
-  min-height: 50px;
+  padding:10px 0;
 }
 
 .flex-column {
@@ -76,6 +76,7 @@
 h1.main-title {
   font-family: 'cocogoose title', sans-serif;
   font-size: 35px;
+  margin: 0 0 30px 0;
 }
 .title-color {
   color: #ec5242
@@ -85,6 +86,10 @@ h1.main-title {
   font-weight: 400;
   font-size: 30px;
   margin: 50px 0 10px 0;
+}
+
+.brief-info {
+  padding: 20px 30px;
 }
 
 /* outline classes */
