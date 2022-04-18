@@ -116,6 +116,8 @@ h1.sub-title {
   padding: 30px 0;
   width:100%;
   min-height: 50px;
+  background-image: url('images/pattern_bg.png');
+  background-color: #272a31;
 }
 
 .program {
