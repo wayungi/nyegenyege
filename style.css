@@ -1,3 +1,9 @@
+/* colors
+  #272a31 - blackish
+  #ec5242 - reddish
+  #d3d3d3 - light  grey
+*/
+
 *{
   margin:0;
   padding:0;
@@ -19,6 +25,10 @@
   justify-content: center;
 }
 
+.space-btn {
+  justify-content: space-between;
+}
+
 .navbar {
   min-height: 20px;
 }
@@ -29,7 +39,15 @@
 
 .hmbgr {
   width:40px;
-  height: 40px;
+  height: 35px;
+  box-sizing: border-box;
+}
+
+.hmbgr-bar {
+  display:block;
+  height: 6px;
+  background-color:#272a31;
+  width:100%;
 }
 
 /* outline classes */
