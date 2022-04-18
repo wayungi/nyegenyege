@@ -1,0 +1,22 @@
+{
+  "name": "nyegenyege",
+  "version": "1.0.0",
+  "description": "Capstone ptoject one based on html, css &amp; javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayungi/nyegenyege.git"
+  },
+  "author": "Francis Wayungi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wayungi/nyegenyege/issues"
+  },
+  "homepage": "https://github.com/wayungi/nyegenyege#readme",
+  "devDependencies": {
+    "hint": "^6.1.11"
+  }
+}
