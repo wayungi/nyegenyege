@@ -21,6 +21,7 @@
   padding: 0;
   border-radius: 0;
   font-family: 'Lato', sans-serif;
+  line-height: 30px;
 }
 
 .container {
@@ -224,6 +225,34 @@ p.role {
 /* correct padding on main program Foreun activity */
 .pad-right-5 {
   padding-right: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  border-bottom:2px solid #d3d3d3;
+  color:#272a31;
+  font-weight: 700;
+}
+
+.about-nyegenyege {
+  margin: 30px 0 0 0;
+}
+
+.sub-title-2 {
+  margin: 0 0 20px 0;
+}
+
+.logo-brief {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.logo-detail {
+  border:1px solid #d3d3d3;
+  width: 90%;
+  padding:20px;
+  box-sizing: border-box;
+  margin: 20px 0;
 }
 
 .y-gap {
