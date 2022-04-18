@@ -16,8 +16,6 @@
   src: url('./fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf');
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -35,16 +33,12 @@
   flex-wrap: nowrap;
 }
 
-.center {
-  justify-content: center;
+.column-center {
+  align-items: center;
 }
 
 .space-btn {
   justify-content: space-between;
-}
-
-.navbar {
-
 }
 
 .pad {
@@ -78,6 +72,7 @@ h1.main-title {
   font-size: 35px;
   margin: 0 0 30px 0;
 }
+
 .title-color {
   color: #ec5242
 }
@@ -92,7 +87,6 @@ h1.main-title {
   padding: 20px 30px;
 }
 
-
 .event-date {
   font-family: 'cocogoose title';
   font-size: 20px;
@@ -101,6 +95,24 @@ h1.main-title {
 .venue {
   margin: 10px 0 50px 0;
 }
+
+.main-program {
+  padding:40px 0;
+}
+
+h1.sub-title {
+  width: fit-content;
+  font-size: 20px;
+  margin-bottom:15px;
+}
+
+.red-bar {
+  border: 1px solid red;
+  width:40px;
+
+}
+
+
 /* outline classes */
 .black {
   outline: 1px solid black;
