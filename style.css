@@ -6,6 +6,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
+@font-face {
+  font-family:'cocogoose title';
+  src: url('./fonts/cocogoose/Cocogoose Pro-trial.ttf');
+}
+
+@font-face {
+  font-family:'cocogoose menu';
+  src: url('./fonts/cocogoose/Cocogoose Pro Semilight-trial.ttf');
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +44,7 @@
 }
 
 .navbar {
-  min-height: 20px;
+
 }
 
 .pad {
@@ -59,6 +71,20 @@
 .background {
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+h1.main-title {
+  font-family: 'cocogoose title', sans-serif;
+  font-size: 35px;
+}
+.title-color {
+  color: #ec5242
+}
+
+.tagline {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 50px 0 10px 0;
 }
 
 /* outline classes */
