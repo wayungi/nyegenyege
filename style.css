@@ -240,9 +240,10 @@ p.role {
 
 .sub-title-2 {
   margin: 0 0 20px 0;
+  text-align: center;
 }
 
-.logo-brief {
+.brief {
   text-align: center;
   margin: 20px 0 0 0;
 }
@@ -254,6 +255,32 @@ p.role {
   box-sizing: border-box;
   margin: 20px 0;
 }
+
+.past-events {
+  margin:40px 0 20px 0;
+}
+
+.past-event {
+  width:90%;
+  position:relative;
+}
+
+.past-event img {
+  width: 100%;
+}
+
+.overlay {
+  z-index: 1;
+  background-color: rgba(236, 82, 66, .4);
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+
+}
+
+
 
 .y-gap {
   column-gap:10px;
