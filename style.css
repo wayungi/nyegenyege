@@ -2,5 +2,20 @@
   margin:0;
   padding:0;
   border-radius: 0;
-  
+
+}
+
+.container {
+  border:1px solid black;
+  min-height: 50px;
+}
+
+.flex-column {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.center {
+  justify-content: center;
 }
