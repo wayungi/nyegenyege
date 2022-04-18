@@ -4,11 +4,10 @@
   #d3d3d3 - light  grey
 */
 
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   border-radius: 0;
-
 }
 
 .container {
@@ -16,7 +15,7 @@
 }
 
 .flex-column {
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
 }
@@ -38,16 +37,16 @@
 }
 
 .hmbgr {
-  width:40px;
+  width: 40px;
   height: 30px;
   box-sizing: border-box;
 }
 
 .hmbgr-bar {
-  display:block;
+  display: block;
   height: 6px;
-  background-color:#272a31;
-  width:100%;
+  background-color: #272a31;
+  width: 100%;
 }
 
 .introduction {
@@ -61,9 +60,9 @@
 
 /* outline classes */
 .black {
-  outline:1px solid black;
+  outline: 1px solid black;
 }
 
 .red {
-  outline:1px solid red;
+  outline: 1px solid red;
 }
