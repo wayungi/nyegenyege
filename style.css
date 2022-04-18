@@ -124,6 +124,18 @@ h1.sub-title {
   margin-bottom:10px;
 }
 
+.join-nyege {
+  all:unset;
+  padding:20px 30px;
+  margin-top:20px;
+  background-color: #ec5242;
+  color:#fff;
+}
+
+.large-screen {
+  display:none;
+}
+
 /* outline classes */
 .black {
   outline: 1px solid black;
