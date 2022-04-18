@@ -50,6 +50,15 @@
   width:100%;
 }
 
+.introduction {
+  background-image: url('images/background-1.png');
+}
+
+.background {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* outline classes */
 .black {
   outline:1px solid black;
