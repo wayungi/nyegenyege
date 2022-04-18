@@ -203,6 +203,24 @@ p.role {
   font-size: 13px;
 }
 
+.border {
+  border: 1px solid #d3d3d3;
+  margin:0 10px;
+}
+
+.about-info {
+  text-align: center;
+  padding:20px 10px;
+}
+
+.contact-info {
+  margin:30px 0;
+}
+
+.contact-info p {
+  text-align: center;
+}
+
 /* correct padding on main program Foreun activity */
 .pad-right-5 {
   padding-right: 5px;
