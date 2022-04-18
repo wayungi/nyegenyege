@@ -38,8 +38,13 @@
   flex-direction: row;
 }
 
-.column-center {
+.column-center,
+.row-center {
   align-items: center;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
 }
 
 .space-btn {
@@ -128,7 +133,8 @@ h1.sub-title {
   width:95%;
   margin-bottom:10px;
   background-color: rgba(211, 211, 211, .4);
-}
+  padding:8px 0;
+ }
 
 .join-nyege {
   all:unset;
@@ -140,6 +146,29 @@ h1.sub-title {
 
 .large-screen {
   display:none;
+}
+
+.icon {
+  min-width:40%;
+  padding:5px;
+}
+
+.brief-summary {
+  color:#fff;
+}
+
+.icon-title {
+  color:#ec5242;
+  font-weight: bold;
+}
+
+/* correct padding on main program Foreun activity */
+.pad-right-5 {
+  padding-right: 5px;
+}
+
+.y-gap {
+  column-gap:10px;
 }
 
 /* outline classes */
