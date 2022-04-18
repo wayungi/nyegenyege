@@ -33,6 +33,11 @@
   flex-wrap: nowrap;
 }
 
+.flex-row {
+  display:flex;
+  flex-direction: row;
+}
+
 .column-center {
   align-items: center;
 }
@@ -117,13 +122,10 @@ h1.sub-title {
 .programes {
   padding: 30px 0;
   width:100%;
-  min-height: 50px;
-
 }
 
 .program {
   width:95%;
-  min-height: 40px;
   margin-bottom:10px;
   background-color: rgba(211, 211, 211, .4);
 }
