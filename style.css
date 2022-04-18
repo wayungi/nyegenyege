@@ -116,6 +116,9 @@ h1.sub-title {
   width: fit-content;
   font-size: 20px;
   margin-bottom:10px;
+}
+
+.white {
   color:#fff;
 }
 
@@ -160,6 +163,44 @@ h1.sub-title {
 .icon-title {
   color:#ec5242;
   font-weight: bold;
+}
+
+.feat-speakers {
+  padding:40px 0 0 0;
+}
+
+.speakers {
+  width:100%;
+  padding: 30px 0 0 0;
+}
+
+.speaker {
+  width: 95%;
+  margin-bottom: 10px;
+ 
+}
+
+.speaker-image {
+  width:180px;
+}
+
+/* the image */
+.speaker-item {
+  width:100%;
+}
+
+.speaker-bio h2 {
+  font-size: 15px;
+}
+
+.speaker-bio p.academics {
+  color:#ec5242;
+  margin: 10px 0;
+}
+
+p.academics, 
+p.role {
+  font-size: 13px;
 }
 
 /* correct padding on main program Foreun activity */
