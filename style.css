@@ -97,6 +97,10 @@ h1.main-title {
   font-family: 'cocogoose title';
   font-size: 20px;
 }
+
+.venue {
+  margin: 10px 0 50px 0;
+}
 /* outline classes */
 .black {
   outline: 1px solid black;
