@@ -6,7 +6,6 @@
 }
 
 .container {
-  border:1px solid black;
   min-height: 50px;
 }
 
@@ -18,4 +17,26 @@
 
 .center {
   justify-content: center;
+}
+
+.navbar {
+  min-height: 20px;
+}
+
+.pad {
+  padding: 0 20px;
+}
+
+.hmbgr {
+  width:40px;
+  height: 40px;
+}
+
+/* outline classes */
+.black {
+  outline:1px solid black;
+}
+
+.red {
+  outline:1px solid red;
 }
