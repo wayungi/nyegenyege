@@ -515,6 +515,13 @@ p.role {
     color:#272a31;
     font-weight: lighter;
   }
+
+  /* about page styles */
+  .title-variant {
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+  }
 }
 
 
