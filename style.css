@@ -299,6 +299,8 @@ p.role {
 
 .logos p {
   font-size:2em;
+  filter: grayscale(40%);
+
 }
 
 .bar {
@@ -328,7 +330,31 @@ p.role {
 .game {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-variant: small-caps;
+}
 
+.cpyright-section {
+  padding:10px 0 0 0;
+}
+
+.site-logo,
+.site-rights {
+  width:50%;
+  height:100px;
+  box-sizing: border-box;
+}
+
+.logo-bottom {
+  height:100%;
+}
+
+.site-rights {
+  padding-top: 30px;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.site-rights p {
+  line-height: 15px;
 }
 /* outline classes */
 .black {
