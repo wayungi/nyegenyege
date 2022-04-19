@@ -541,6 +541,16 @@ p.role {
     justify-content: center;
     column-gap: 4%;
   }
+
+  .cpyright-section {
+    background-color: #272a31;
+    color: #fff;
+    margin-top:50px;
+    padding-bottom:5px;
+  }
+
+  
+  
 }
 
 
