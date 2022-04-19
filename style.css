@@ -522,6 +522,25 @@ p.role {
     margin-top:100px;
     margin-bottom:100px;
   }
+
+  .contact-info {
+    margin-top:80px;
+    margin-bottom:80px;
+  }
+
+  .sub-title-2 {
+    font-size: 2.5em;
+  }
+
+  .logo-detail {
+    border:none;
+  }
+
+  .past-images {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 4%;
+  }
 }
 
 
