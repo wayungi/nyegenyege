@@ -82,7 +82,7 @@
   background-size: contain;
 }
 
-h1.main-title {
+.main-title {
   font-family: 'cocogoose title', sans-serif;
   font-size: 35px;
   margin: 0 0 30px 0;
@@ -450,8 +450,14 @@ p.role {
     margin:100px 0 20px 0;
   }
 
-  .large-pad {
-    padding: 0 200px;
+  .large-margin {
+    margin-left:200px;
+    margin-right: 300px;
+  }
+
+  .brief-info {
+    border:1px solid #fff;
+    background-color: #fff;
   }
 
 }
