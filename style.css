@@ -440,6 +440,12 @@ p.role {
     height: 100%;
   }
 
+  .navbar {
+    /* outline:1px solid red; */
+    box-shadow: 0 1px 5px grey;
+    background-color: #fff;
+  }
+
 }
 
 
