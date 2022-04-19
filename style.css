@@ -460,6 +460,28 @@ p.role {
     background-color: #fff;
   }
 
+  /* main program styles */
+  .programes {
+    flex-direction: row;
+    width:80%;
+    column-gap:1%;
+  }
+
+  .program {
+    width:19%;
+    flex-direction: column;
+    padding:5px 5px;
+  }
+
+  .icon {
+    flex-direction: column;
+  }
+
+  .program p {
+    line-height: 15px;
+    text-align: center;
+  }
+
 }
 
 
