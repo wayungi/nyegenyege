@@ -486,6 +486,18 @@ p.role {
   .whole-program {
     color:#fff;
   }
+
+  .speakers {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+  }
+
+  .speaker {
+    width:40%;
+
+  }
 }
 
 
