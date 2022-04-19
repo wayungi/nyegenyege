@@ -510,6 +510,11 @@ p.role {
     color:#d3d3d3;
     padding: 10px 40px;
   }
+
+  .light {
+    color:#272a31;
+    font-weight: lighter;
+  }
 }
 
 
