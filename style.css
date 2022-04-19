@@ -393,6 +393,30 @@ p.role {
     padding: 0 10px;
   }
 
+  .lg-navbar li {
+    list-style: none;
+    height:40px;
+    line-height: 40px;
+  }
+
+  .lg-navbar a {
+    text-decoration: none;
+    color: #272a31;
+    padding: 0 10px;
+
+  }
+
+  .lg-navbar li:nth-child(1) a {
+    color: #ec5242;
+  }
+
+  .lg-navbar li:last-child a {
+    padding:12px 10px;
+    border:2px solid #ec5242;
+  }
+
+
+
   .social-list a {
     text-decoration: none;
     color:#fff;
@@ -401,6 +425,19 @@ p.role {
 
   .social {
     cursor: pointer;
+  }
+
+  .nav-access {
+    justify-content: space-between;
+    padding: 5px  70px;
+  }
+
+  .main-logo-top {
+    height: 40px;
+  }
+
+  .main-logo-top img {
+    height: 100%;
   }
 
 }
