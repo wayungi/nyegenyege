@@ -452,7 +452,7 @@ p.role {
 
   .large-margin {
     margin-left:200px;
-    margin-right: 300px;
+    margin-right: 200px;
   }
 
   .brief-info {
@@ -483,6 +483,9 @@ p.role {
     text-align: center;
   }
 
+  .whole-program {
+    color:#fff;
+  }
 }
 
 
