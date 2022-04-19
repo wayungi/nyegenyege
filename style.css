@@ -467,12 +467,17 @@ p.role {
     column-gap:1%;
   }
 
+  /* fix height of forum div */
+  .programes .program:nth-child(3){
+    padding:7px 5px;
+  }
+
   .program {
     width:19%;
     flex-direction: column;
     padding:5px 5px;
-    height: 180px;
   }
+
 
   .icon {
     flex-direction: column;
