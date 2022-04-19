@@ -309,7 +309,6 @@ p.role {
 }
 
 .logos p {
-  /* outline:1px solid red; */
   padding:5px 10px;
 } 
 
@@ -501,7 +500,15 @@ p.role {
 
   .speaker {
     width:40%;
+  }
 
+  .partners-large {
+    background-color: #272a31;
+  }
+
+  .logos p {
+    color:#d3d3d3;
+    padding: 10px 40px;
   }
 }
 
