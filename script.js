@@ -11,7 +11,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/betina.jpg', 'betina\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Betina Nankya',
     pAcademics: 'academics',
@@ -23,7 +22,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/ludiya.jpg', 'ludiya\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Ludiya Becca',
     pAcademics: 'academics',
@@ -35,7 +33,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/ming.jpg', 'ludiya\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Ming Wan',
     pAcademics: 'academics',
@@ -47,7 +44,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/ojo.jpg', 'ludiya\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Ojo Nyal',
     pAcademics: 'academics',
@@ -59,7 +55,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/olara.jpg', 'ludiya\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Olara Peter',
     pAcademics: 'academics',
@@ -71,7 +66,6 @@ const members = [
     mainDiv: ['speaker', 'flex-row', 'y-gap'],
     imgDiv:'speaker-image',
     imgAttributes: ['./images/ojok.jpg', 'ludiya\'s picture', 'speaker-item'],
-
     bioDiv: 'speaker-bio',
     head: 'Ojok Patrick',
     pAcademics: 'academics',

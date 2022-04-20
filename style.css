@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
 @font-face {
   font-family:'cocogoose title';
   src: url('./fonts/cocogoose/Cocogoose Pro-trial.ttf');
@@ -192,7 +194,6 @@ h1.sub-title {
 .speaker {
   width: 95%;
   margin-bottom: 10px;
- 
 }
 
 .speaker-image {
@@ -217,7 +218,6 @@ p.academics,
 p.role {
   font-size: 13px;
   line-height: 20px;
-
 }
 
 .border {
@@ -230,8 +230,6 @@ p.role {
   padding:20px 10px;
   background-color: #fff;
 }
-
-
 
 .contact-info {
   margin:30px 0;
@@ -318,7 +316,6 @@ p.role {
 .logos p {
   font-size:2em;
   filter: grayscale(40%);
-
 }
 
 .bar {
@@ -379,7 +376,6 @@ p.role {
 }
 
 /* modal window style */
-
 .mobile-nav {
   padding:40px 20px;
   background-color: #d3d3d3;
@@ -428,15 +424,7 @@ div.hide {
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
 /* large screen styles */
-
 @media (min-width: 768px) {
   .large-screen {
     display:block;
@@ -487,8 +475,6 @@ div.hide {
     padding:12px 10px;
     border:2px solid #ec5242;
   }
-
-
 
   .social-list a {
     text-decoration: none;
@@ -550,7 +536,6 @@ div.hide {
     padding:5px 5px;
   }
 
-
   .icon {
     flex-direction: column;
   }
@@ -601,8 +586,6 @@ div.hide {
     margin-bottom:80px;
   }
 
-  
-
   .logo-detail {
     border:none;
   }
@@ -632,22 +615,4 @@ div.hide {
   .speaker-bio p.academics {
     margin: 2% 0;
   }
-
-  
-  
-}
-
-
-
-
-
-
-
-/* outline classes */
-.black {
-  outline: 1px solid black;
-}
-
-.red {
-  outline: 1px solid red;
 }
