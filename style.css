@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
 @font-face {
@@ -76,8 +76,6 @@
 
 .background {
   background-repeat: no-repeat;
-  background-size: fit;
-  z-index:10;
 }
 
 .main-title {
@@ -176,7 +174,7 @@ h2.sub-title {
 
 .brief-summary {
   color: #fff;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .icon-title {
@@ -420,7 +418,7 @@ div.hide {
 /* large screen styles */
 @media (min-width: 768px) {
   * {
-    font-size:1em;
+    font-size: 1em;
   }
 
   .large-screen {
@@ -566,8 +564,8 @@ div.hide {
   }
 
   .logos {
-    margin-bottom:40px;
-    padding-bottom:30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   .light {
@@ -634,7 +632,7 @@ div.hide {
   }
 
   .red {
-    outline:4px solid red;
+    outline: 4px solid red;
   }
 
   .venue {
@@ -643,17 +641,15 @@ div.hide {
   }
 
   .site-logo {
-    width:30%;
+    width: 30%;
   }
 
   .site-rights {
     width: 70%;
-    padding-right:200px;
+    padding-right: 200px;
   }
 
   .site-rights p {
     line-height: 20px;
   }
-
-  
 }
