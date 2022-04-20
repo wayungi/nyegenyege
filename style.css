@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
@@ -174,6 +175,7 @@ h2.sub-title {
 
 .brief-summary {
   color: #fff;
+  font-size: .9em;
 }
 
 .icon-title {
@@ -416,6 +418,10 @@ div.hide {
 
 /* large screen styles */
 @media (min-width: 768px) {
+  * {
+    font-size:1em;
+  }
+
   .large-screen {
     display: block;
   }
@@ -494,7 +500,7 @@ div.hide {
   }
 
   .tagline {
-    margin: 100px 0 20px 0;
+    margin: 150px 0 20px 0;
   }
 
   .large-margin {
@@ -530,7 +536,7 @@ div.hide {
   }
 
   .program p {
-    line-height: 15px;
+    line-height: 25px;
     text-align: center;
   }
 
@@ -555,7 +561,12 @@ div.hide {
 
   .logos p {
     color: #d3d3d3;
-    padding: 10px 40px;
+    padding: 40px 40px;
+  }
+
+  .logos {
+    margin-bottom:40px;
+    padding:10px;
   }
 
   .light {
@@ -600,9 +611,30 @@ div.hide {
   p.academics,
   p.role {
     line-height: 15px;
+    font-size: 1em;
   }
 
   .speaker-bio p.academics {
     margin: 2% 0;
   }
+
+  .main-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .event-date {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .red {
+    outline:1px solid red;
+  }
+
+  
 }
