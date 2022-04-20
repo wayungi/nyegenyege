@@ -1,11 +1,5 @@
-/* colors
-  #272a31 - blackish
-  #ec5242 - reddish
-  #d3d3d3 - light  grey
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-
 @font-face {
   font-family:'cocogoose title';
   src: url('./fonts/cocogoose/Cocogoose Pro-trial.ttf');
@@ -83,10 +77,16 @@
 }
 
 .main-title {
-  font-family: 'cocogoose title', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
   font-size: 35px;
   margin: 0 0 30px 0;
   line-height: 50px;
+  background-image: url('./images/nyege1.jpg');
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 25, 0, .6);
+  -webkit-font-smoothing:antialiased;
 }
 
 .title-color {
@@ -246,6 +246,10 @@ p.role {
 .sub-title-2 {
   margin: 0 0 20px 0;
   text-align: center;
+  font-size: 1.5em;
+  margin-top:30px;
+  color:#fff;
+  
 }
 
 .brief {
@@ -528,9 +532,7 @@ p.role {
     margin-bottom:80px;
   }
 
-  .sub-title-2 {
-    font-size: 2.5em;
-  }
+  
 
   .logo-detail {
     border:none;
@@ -545,8 +547,12 @@ p.role {
   .cpyright-section {
     background-color: #272a31;
     color: #fff;
-    margin-top:50px;
+    /* margin-top:50px; */
     padding-bottom:5px;
+  }
+
+  div.white-only {
+    background-color: #fff;
   }
 
   
