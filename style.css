@@ -76,7 +76,8 @@
 
 .background {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: fit;
+  z-index:10;
 }
 
 .main-title {
@@ -566,7 +567,7 @@ div.hide {
 
   .logos {
     margin-bottom:40px;
-    padding:10px;
+    padding-bottom:30px;
   }
 
   .light {
@@ -633,7 +634,25 @@ div.hide {
   }
 
   .red {
-    outline:1px solid red;
+    outline:4px solid red;
+  }
+
+  .venue {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .site-logo {
+    width:30%;
+  }
+
+  .site-rights {
+    width: 70%;
+    padding-right:200px;
+  }
+
+  .site-rights p {
+    line-height: 20px;
   }
 
   
