@@ -129,6 +129,10 @@ h1.sub-title {
 
 .white {
   color:#fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  width:100%;
 }
 
 .red-bar {
@@ -220,7 +224,10 @@ p.role {
 .about-info {
   text-align: center;
   padding:20px 10px;
+  background-color: #fff;
 }
+
+
 
 .contact-info {
   margin:30px 0;
@@ -251,7 +258,7 @@ p.role {
   text-align: center;
   font-size: 1.5em;
   margin-top:30px;
-  color:#fff;
+  color:black;
 }
 
 .brief {
