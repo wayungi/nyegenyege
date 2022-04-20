@@ -6,7 +6,7 @@ This is the first capstone project from the css & Javascript module.
 The project is about Music festival held in Uganda by MTN, a mobile telecommunications provider
 
 
-[Watch a video presenting the page.](https://www.loom.com/share/52f973494dc94a3b963a58420cd75f1c)
+[Watch a video presenting the page.](https://www.loom.com/share/1a8fec1ca6724e1a9eb124b1f3dab365)
 
 
 ## Built With
