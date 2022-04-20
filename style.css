@@ -82,6 +82,9 @@
   font-size: 35px;
   margin: 0 0 30px 0;
   line-height: 50px;
+}
+
+.mt1 {
   background-image: url('./images/nyege1.jpg');
   background-size: contain;
   -webkit-background-clip: text;
@@ -249,7 +252,6 @@ p.role {
   font-size: 1.5em;
   margin-top:30px;
   color:#fff;
-  
 }
 
 .brief {
