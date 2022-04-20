@@ -58,6 +58,7 @@
   width: 40px;
   height: 30px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .hmbgr-bar {
@@ -84,7 +85,8 @@
   line-height: 50px;
 }
 
-.mt1 {
+.mt1, 
+.modal-title {
   background-image: url('./images/nyege1.jpg');
   background-size: contain;
   -webkit-background-clip: text;
@@ -375,6 +377,62 @@ p.role {
 .large-screen {
   display: none;
 }
+
+/* modal window style */
+
+.mobile-nav {
+  padding:40px 20px;
+  background-color: #d3d3d3;
+  position:fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+.mobile-list li {
+  list-style: none;
+}
+
+.mobile-item a,
+a.close {
+  text-decoration: none;
+  color:#272a31;
+  font-size: 2em;
+}
+
+.mobile-item a:hover,
+a.close:hover {
+  color:#ec5242;
+}
+
+a.close {
+  font-size:3em;
+}
+
+div.hide {
+  display:none;
+}
+
+/* hide the speakers div in about page */
+.hide-all {
+  display:none;
+}
+
+.modal-title {
+  font-size:2em;
+  color:#ec5242;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+
+
+
+
+
 
 
 /* large screen styles */

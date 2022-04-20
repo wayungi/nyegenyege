@@ -1,4 +1,10 @@
 const speakers = document.querySelector('.speakers');
+const closeLink = document.querySelector('.close');
+const ham = document.querySelector('.hmbgr');
+const modal = document.querySelector('.mobile-nav');
+const links = document.querySelectorAll('.mobile-item');
+const container  = document.querySelector('.container');
+const body = document.getElementById('body');
 
 const members = [
   {
@@ -122,4 +128,25 @@ function createSpeaker(speaker){
 // create the speakers
 members.forEach(member => {
   createSpeaker(member);
+});
+
+// display modal on clicking hamburger
+ham.addEventListener('click', () => {
+  modal.classList.remove('hide');
+  body.classList.add('no-scroll');
 })
+
+// hide modal on clicking close
+closeLink.addEventListener('click', () => {
+  modal.classList.add('hide');
+  body.classList.remove('no-scroll');
+
+});
+
+//  Add click lister to links and hide modal
+Array.from(links).forEach(link => {
+  link.addEventListener('click', () => {
+    modal.classList.add('hide');
+    body.classList.remove('no-scroll');
+  });
+});
