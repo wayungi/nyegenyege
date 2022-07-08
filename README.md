@@ -2,9 +2,7 @@
 
 # MTN Nyegenyge
 
-This is the first capstone project from the css & Javascript module.
-The project is about Music festival held in Uganda by MTN, a mobile telecommunications provider
-
+This is the first capstone project from the css & Javascript module. The project is about Music festival held in Uganda by MTN, a mobile telecommunications provider
 
 [Watch a video presenting the page.](https://www.loom.com/share/1a8fec1ca6724e1a9eb124b1f3dab365)
 
